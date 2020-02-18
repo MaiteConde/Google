@@ -1,0 +1,87 @@
+body {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    height: 100vh;
+}
+
+.enlaces {
+    padding: 15px;
+}
+
+
+a {
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+    margin-left: 10px;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+main {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 80vh;
+
+}
+
+.buscador {
+display: flex;
+align-items: center;
+border: 1px solid rgba(197, 194, 194, 0.603);
+width: 40%;
+height: 8%;
+border-radius: 30px;
+margin-top: 20px;
+}
+.buscador:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.iconoBusqueda{
+    opacity: 0.5;
+    padding: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    all: unset;
+    height: 100%;
+    width: 90%;
+}
+
+.microfono {
+    height: 24px ;
+    width: 24px;
+    cursor: pointer;
+    padding-right: 8px;
+}
+.botonera {
+    margin-top: 20px;
+  
+
+}
+.botonera button {
+    all: unset;
+    padding: 10px 25px;
+    background-color: #f2f2f2;
+    opacity: 0.75;
+    margin-left: 4px;
+    border-radius: 3px;
+}
+
+.botonera button:hover {
+    cursor: pointer;
+    border:1px solid rgb(177, 177, 177);
+    
+}
